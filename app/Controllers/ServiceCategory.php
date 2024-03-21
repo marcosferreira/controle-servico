@@ -13,15 +13,15 @@ class ServiceCategory extends BaseController
 
     public function __construct()
     {
-        $this->serviceCategory = new ServiceCategoryModel();
+        // $this->serviceCategory = new ServiceCategoryModel();
 
-        $this->data = [
-            'serviceCategories' => $this->serviceCategory->findAll(),
-        ];
+        // $this->data = [
+        //     'serviceCategories' => $this->serviceCategory->findAll(),
+        // ];
     }
 
     public function index()
     {
-        //
+        return view('home');
     }
 }
