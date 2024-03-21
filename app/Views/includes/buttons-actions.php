@@ -1,8 +1,8 @@
 <div class="w-100 d-flex justify-content-center gap-2 my-4">
     <!-- Button trigger modal ServiceCategory -->
-    <button type="button" class="flex-fill btn btn-outline-primary mt-2" data-bs-toggle="modal" data-bs-target="#modalServiceCategory">
+    <a href="<?php echo url_to('serviceCategory.index'); ?>" class="flex-fill btn btn-outline-primary mt-2" >
         Categoria de Serviço
-    </button>
+    </a>
 
     <!-- Button trigger modal ServiceType -->
     <button type="button" class="flex-fill btn btn-outline-primary mt-2" data-bs-toggle="modal" data-bs-target="#modalServiceType">
